@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
 }
@@ -85,4 +80,24 @@ li:last-child {
 
 li:nth-child(odd) {
   color: #f00;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #ff4500ff;
+  font-weight: bold;
+  text-decoration: underline wavy pink;
+}
+
+a:active {
+  color: white;
+  background-color: #000;
 }
